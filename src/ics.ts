@@ -56,7 +56,7 @@ export function lessonsToIcs(
             ", "
         )}\n${t('calendar.timetable')}: ${requestedTimetable}\n${t('calendar.status')}: ${l.status}\nlstext: ${
             l.lstext
-        }`;
+        }\n#needs_travel`;
 
         let calStatus;
         switch (l.status) {
